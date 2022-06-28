@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Style Guide</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#colors">Colors</a></li>
+          <li><a href="#fonts">Fonts</a></li>
+          <li><a href="#text-styles">Text Styles</a></li>
+        </ul>
+      </nav>
+      <h1>Website Style Guide</h1>
+    </header>
+    <main>
+      <section id="colors">
+        <table>
+          <caption>
+            Colors
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Hex</th>
+              <th scope="col">Sample</th>
+              <th scope="col">Usage</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row" class="color-name">Light Blue</td>
+              <td scope="row" class="color-hex"><code>#5a38f2</code></td>
+              <td scope="row"><div class="color-sample light-blue" /></td>
+            </tr>
+            <tr>
+              <td scope="row" class="color-name">Pink</td>
+              <td scope="row" class="color-hex"><code>#FFC0CB</code></td>
+              <td scope="row"><div class="color-sample pink" /></td>
+            </tr>
+            <tr>
+              <td scope="row" class="color-name">Olive</td>
+              <td scope="row" class="color-hex"><code>#808000</code></td>
+              <td scope="row"><div class="color-sample olive" /></td>
+              <td scope="row">Use for links</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          Refer to
+          <cite
+            ><a
+              target="_blank"
+              href="https://www.computerhope.com/htmcolor.htm#color-codes"
+              >HTML color codes and names</a
+            ></cite
+          >
+          for a good reference.
+        </p>
+      </section>
+      <section id="fonts">
+        <table>
+          <caption>
+            Fonts
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Sample</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row">Lato</td>
+              <td scope="row" class="lato">
+                <p>The quick brown fox jumps over the lazy dog.</p>
+                <p>
+                  <i>The quick brown fox jumps over the lazy dog.</i>
+                </p>
+                <p>
+                  <b>The quick brown fox jumps over the lazy dog.</b>
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="text-styles">
+        <h2>Text Styles</h2>
+        <div class="text-style">
+          <h1 class="lato">H1: Main page heading</h1>
+          <ul>
+            <li>Font-weight: 700 (bold)</li>
+            <li>Font-height: 28px</li>
+            <li>Font-family: lato</li>
+          </ul>
+        </div>
+        <div class="text-style">
+          <h2 class="lato">H2: Subheading</h2>
+          <ul>
+            <li>Font-weight: 400</li>
+            <li>Font-height: 22px</li>
+            <li>Font-family: lato</li>
+          </ul>
+        </div>
+        <div class="text-style">
+          <p class="lato">P: Paragraph</p>
+          <ul>
+            <li>Font-weight: 400</li>
+            <li>Font-height: 16px</li>
+            <li>Font-family: lato</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
